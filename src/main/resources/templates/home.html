@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko" >
+<head>
+    <meta charset="UTF-8">
+    <title>Jeonghwa Portfolio</title>
+    <link rel="stylesheet" href="/resources/stylesheets/home.css">
+    <script defer src="/resources/scripts/home.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Do+Hyeon&family=Gowun+Dodum&family=IBM+Plex+Sans+KR&family=Jua&family=Unbounded:wght@400;600&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71448d348e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header id="header">
+    <div class="header-container" >
+        <div class="left-container">
+            <img id="header-img" class="logo" src="/resources/images/icon.png" alt="Logo">
+            <a class="p">Portfolio</a>
+        </div>
+        <div class="right-container">
+            <ul class="menu right">
+                <li class=" right">
+                    <a href="#home" class="link">Home</a>
+                </li>
+                <li class="right">
+                    <a href="#about" class="link">About me</a>
+                </li>
+                <li class="right">
+                    <a href="#skills" class="link" data-menu="skills">Skills</a>
+                </li>
+                <li class="right">
+                    <a href="#project" class="link">Project</a>
+                </li>
+                <li class="right">
+                    <a href="#contact" class="link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="container" id="home">
+        <div class="home">
+            <h2>
+                안녕하세요 신입 개발자
+                <br>
+                <strong>서정화</strong>의 포트폴리오 입니다
+            </h2>
+        </div>
+
+    </section>
+
+    <section class="container" id="about">
+        <h1><a>About me</a></h1>
+        <div class="about">
+            <div class="image">
+                <img class="jh" src="/resources/images/sjh.jpg" alt="profileImage">
+            </div>
+            <ul class="aboutText">
+                <li class="text"> 노력과 의지를 갖고 오래 일 할수 있는 직업을 찾다가 개발자에 관심을 갖게 되었고, <br>학습을 통해 습득한 기술력으로 원하는 기능을
+                    구현할 수 있다는 것에 매력을 느껴 <br><strong>개발자가 되기로 결심</strong>했습니다.
+                </li>
+                <li class="text"><strong>배움에 대한 열정</strong>이 가득한 개발자 입니다.</li>
+                <li class="text">빠르게 발전하는 기술 속에서 <strong>변화에 빠르게 대응</strong>하는 개발자가 되겠습니다.</li>
+                <li class="text">혼자보단
+                    <strong> "함께"</strong> 협업을 중요시하는 개발자가 되겠습니다.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="container" id="skills">
+        <h1><a>Skills</a></h1>
+        <div class="skills-container">
+            <div class="part1-container">
+                <div class="skill color1">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">Html/CSS</div>
+                            <div class="percentage-num">75%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 75%;"></div>
+                        </div>
+                        <div class="skillText">적절한 태그를 활용하여 홈페이지 화면설계를 할 수 있습니다. </div>
+                    </div>
+                </div>
+                <div class="skill color2">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">Javascript</div>
+                            <div class="percentage-num">65%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 65%;"></div>
+
+                        </div>
+                        <div class="skillText">Javascript 함수를 사용하여 클릭하거나 form을 전송하는 이벤트를 구현할 수 있고, <br>Ajax를 활용하여 서버와 비동기적으로 통신할 수 있습니다.</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="part2-container">
+                <div class="skill color3">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">Java</div>
+                            <div class="percentage-num">70%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 70%;"></div>
+                        </div>
+                        <div class="skillText">자바의 기초문법과 알고리즘을 학습하였고, 코드에 적용할 수 있습니다. Spring Boot, Mariadb와 연결하여 웹 페이지를 구현하는 코드를 작성할 수 있습니다.</div>
+                    </div>
+
+                </div>
+                <div class="skill color4">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">MySQL/MariaDB</div>
+                            <div class="percentage-num">75%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 75%;"></div>
+                        </div>
+                        <div class="skillText">스키마와 테이블을 생성하고 레코드를 삽입, 선택, 수정, 삭제하기가 가능하며,<br> 제약조건을 적절히 사용 할 수 있습니다. 또한 Java 언어를 이용하여 DBMS에 접속할 수 있고<br> 데이터를 주고 받을 수 있습니다.</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="part3-container">
+                <div class="skill color5">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">SpringBoot</div>
+                            <div class="percentage-num">75%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 75%;"></div>
+                        </div>
+                        <div class="skillText">어노테이션과 의존성을 적절히 사용할 수 있고, 웹 페이지를 만들 수 있습니다.</div>
+                    </div>
+
+                </div>
+                <div class="skill color6">
+                    <div class="partial">
+                        <div class="info">
+                            <div class="name">Template Engine(Thymeleaf)</div>
+                            <div class="percentage-num">80%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentage" style="width: 80%;"></div>
+                        </div>
+                        <div class="skillText">동적인 Html 문서를 만들고 이를 컨트롤러와 연결시킬 수 있습니다.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="project">
+        <h1><a>Project</a></h1>
+        <div class="project-container">
+            <div class="part-container">
+                <div class="one-container">
+                    <div class="projectImage">
+                        <ul class="slides">
+                            <input type="radio" name="radio-btn" id="img-1" checked >
+                            <li class="slide-container">
+                                <div class="slide">
+                                    <img src="/resources/images/home.JPEG" alt="image">
+                                </div>
+                                <div class="nav">
+                                    <label for="img-5" class="prev"><i class="fa-solid fa-circle-chevron-left"></i></label>
+                                    <label for="img-2" class="next"><i class="fa-solid fa-circle-chevron-right"></i></label>
+                                </div>
+                            </li>
+
+                            <input type="radio" name="radio-btn" id="img-2" >
+                            <li class="slide-container">
+                                <div class="slide">
+                                    <img src="/resources/images/squat.jpg" alt="image">
+                                </div>
+                                <div class="nav">
+                                    <label for="img-1" class="prev"><i class="fa-solid fa-circle-chevron-left"></i></label>
+                                    <label for="img-3" class="next"><i class="fa-solid fa-circle-chevron-right"></i></label>
+                                </div>
+                            </li>
+
+                            <input type="radio" name="radio-btn" id="img-3" >
+                            <li class="slide-container">
+                                <div class="slide">
+                                    <img src="/resources/images/record.JPEG" alt="image">
+                                </div>
+                                <div class="nav">
+                                    <label for="img-2" class="prev"><i class="fa-solid fa-circle-chevron-left"></i></label>
+                                    <label for="img-4" class="next"><i class="fa-solid fa-circle-chevron-right"></i></label>
+                                </div>
+                            </li>
+
+                            <input type="radio" name="radio-btn" id="img-4" >
+                            <li class="slide-container">
+                                <div class="slide">
+                                    <img src="/resources/images/board.JPEG" alt="image">
+                                </div>
+                                <div class="nav">
+                                    <label for="img-3" class="prev"><i class="fa-solid fa-circle-chevron-left"></i></label>
+                                    <label for="img-5" class="next"><i class="fa-solid fa-circle-chevron-right"></i></label>
+                                </div>
+                            </li>
+
+                            <input type="radio" name="radio-btn" id="img-5" >
+                            <li class="slide-container">
+                                <div class="slide">
+                                    <img src="/resources/images/shop.JPEG" alt="image">
+                                </div>
+                                <div class="nav">
+                                    <label for="img-4" class="prev"><i class="fa-solid fa-circle-chevron-left"></i></label>
+                                    <label for="img-1" class="next"><i class="fa-solid fa-circle-chevron-right"></i></label>
+                                </div>
+                            </li>
+
+                            <li class="nav-dots">
+                                <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="two-container">
+                    <a class="text">DIOS <strong> (D to I, O to S)</strong></a>
+                    <div class="box">
+                        <div class="one">Team Project</div>
+                        <div class="two">2022.12~2023.1(4인 프로젝트)</div>
+                    </div>
+                    <div class="three">운동 횟수를 카운트해 주고, 기록을 통해 운동에 도움을 주는 웹사이트입니다.<br>운동과 관련한 커뮤니티 및 쇼핑몰 이용이 가능합니다.
+                    </div>
+                    <div class="box-container">
+                        <div class="list">
+                            <div class="a"><i class="icon fa-solid fa-check"></i>URL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                            <a class="link" href="https://dios.seojeonghwa.com" target="_blank">dios.seojeonghwa.com</a>
+                        </div>
+                        <div class="list">
+                            <div class="a"><i class="icon fa-solid fa-check"></i>GitHub&nbsp;</div>
+                            <a class="link" href="https://github.com/blackgreenDios/dios"
+                               target="_blank">github.com/blackgreenDios/dios</a>
+                        </div>
+                        <div class="list">
+                            <div class="a"><i class="icon fa-solid fa-check"></i>Skills&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div>Html , Css , Javascript , Java ,<br>
+                                Spring Boot , MariaDB , MyBatis
+                            </div>
+                        </div>
+
+                        <div class="list">
+                            <div class="a"><i class="icon fa-solid fa-check"></i>My Part</div>
+                            <div>게시판 구현(community,qna,공지사항)<br> 게시글,댓글 CRUD 및 좋아요, 검색 기능 구현 <br></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer id="contact">
+    <div class="footer">
+        <div class="title">C O N T A C T</div>
+        <div class="contact-container">
+            <div class="contact">
+                <div class="phone">
+                    <i class="icon fa-solid fa-phone"></i>
+                    <div>010 5022 5487</div>
+                </div>
+                <div class="email">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <div>qqwwe0713@naver.com</div>
+                </div>
+                <div class="github">
+                    <i class="icon fa-brands fa-github"></i>
+                    <a href="https://github.com/je0nghwa" target="_blank">github.com/je0nghwa</a>
+                </div>
+            </div>
+        </div>
+        <div class="reserved">
+            <i>&copy; 2023 .<a> Seo Jeonghwa</a>  All Rights Reserved.</i>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
